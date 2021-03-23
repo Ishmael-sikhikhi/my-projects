@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background-color: rgb(15, 172, 28);
+}
+h1{
+    color:rgb(46, 33, 117);
+}
+.header {
+       padding: 1em;
+}
+.text-space{
+    padding: 1em;  
+}
+
+.box-1{
+    display: flex;
+    
+}
+
+.box-1 > div{
+    margin: 50px;
+}
+table{
+    width: 25%;
+}
+
+.box-2{
+    display: flex;
+    justify-content: space-between;
+}
+.box-2 > div{
+    margin: 15px;
+}
+header{
+    margin: 50px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+  
+  th,td {
+    border: 1px solid black;
+  }
+  
+  table.a {
+    table-layout: auto;
+    width: 800px;  
+  }
+.churchsquare_{
+    display: flex;
+    margin: 15px;
+}
+.cityhall_{
+    display: flex;
+    padding: 15px;
+}
+.greenmarketsquare_{
+    display: flex;
+    padding: 15px;
+}
+@media(min-width:600px){
+    /* Other css is here still */
+    
+    .historical {
+        
+        display: flex;
+        width: 100%;
+    }
+}
