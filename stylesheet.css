@@ -1,9 +1,14 @@
-body {
+body,html {
     font-family: Arial;
     background-color: rgb(15, 172, 28);
+    width: 100%;
+    /*overflow: hidden;*/
 }
 h1{
     color:rgb(46, 33, 117);
+}
+.names{
+    margin-right: 10%;
 }
 .header {
        padding: 1em;
@@ -13,17 +18,19 @@ h1{
 }
 
 .box-1{
-    display: flex;
-    
+    display: flex; 
 }
 
 .box-1 > div{
-    margin: 50px;
-}
-table{
-    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+img {
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+  }
 .box-2{
     display: flex;
     justify-content: space-between;
@@ -34,18 +41,15 @@ table{
 header{
     margin: 50px;
 }
-table {
-    border-collapse: collapse;
-    border: 1px solid black;
-  } 
-  
+table,
   th,td {
     border: 1px solid black;
+    border-collapse: collapse;
   }
   
   table.a {
     table-layout: auto;
-    width: 800px;  
+    width: 100%;  
   }
 .churchsquare_{
     display: flex;
@@ -59,12 +63,63 @@ table {
     display: flex;
     padding: 15px;
 }
-@media(min-width:600px){
-    /* Other css is here still */
+.container{
+    margin: auto;
+    width: 90%;
+    padding: 1px;
+}
+
+@media only screen and (min-width:768px){
+    img{
+        width: 200px;
+    } 
+    .churchsquare_{
+        display: flex;
+        margin: 15px;
+    }
+    .cityhall_{
+        display: flex;
+        padding: 15px;
+    }
+    .greenmarketsquare_{
+        display: flex;
+        padding: 15px;
+    }
     
     .historical {
         
         display: flex;
-        width: 100%;
+        width: 50%;
     }
+    
+}
+
+   
+   
+
+    
+}
+@media only screen and (min-width:1024){
+    .historical {
+        
+        display: flex;
+        width: 80%;
+    }
+    .container{
+        margin: auto;
+        width: 90%;
+        padding: 1px;
+    }
+    img{
+        width: 150px;
+    }
+}
+@media only screen and (min-width:425){
+    img{
+        width: 200px;
+    }.container{
+        width: auto;
+    }
+
+    
 }
