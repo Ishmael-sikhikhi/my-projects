@@ -29,9 +29,8 @@ body,html {
 
 
 
-.box-2{
-    display: flex;
-    justify-content: center;
+.box-2{display: flex;
+    justify-content: center;nter;
     width: 96%;
 }
 
@@ -102,7 +101,12 @@ img{
 }
 /* end 1024 to bigger screen */
 @media only screen and (max-width:768px) {
-    
+    .box-2.img{
+        float: left;
+        width: 96%;
+        justify-content: space-around;
+        margin-bottom: auto;
+    }
     .container{
         width: 100%;
         overflow: hidden;
