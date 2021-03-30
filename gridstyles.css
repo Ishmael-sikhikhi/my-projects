@@ -85,6 +85,9 @@ table.a {
     }
 }
 @media (min-width:992px){
+    .places{
+        display: flex;
+    }
     .city img{    
         float: left;
         padding-top: 50px;
