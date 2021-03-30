@@ -37,7 +37,51 @@ table.a {
 .places img{
     width: 50%;
 } 
+@media (min-width:992px){
+    .box1, .box2, .box3{
+        width: 27%;
+    }
 
+    .places{
+        display: flex;
+    }
+    .city img{    
+        float: left;
+        padding-top: 50px;
+        /* width: 80%; */
+    }
+    .places img{
+        float: right;
+        width: 50%;
+    } 
+    .city p{
+        text-align: left;
+        margin-left: 120px;
+    }
+    .city h4{
+        margin-left: 120px;
+    }
+      
+    table.a {
+        table-layout: auto;
+        width: 80%; 
+        margin-left: 15px; 
+    }
+    
+    .city h4{
+        margin-left: 120px;
+    }
+    .city img{    
+        float: left;
+        padding-top: 50px;
+        width: 250px; 
+        height: 200px;
+    }
+    .name-row img{
+        width: 250px;
+    }
+    
+}
 
 @media only screen and (min-width:689px) and (max-width:992px){
     .box1, .box3 img{
@@ -83,31 +127,4 @@ table.a {
         float: right;
         padding: 1em;
     }
-}
-@media (min-width:992px){
-    .places{
-        display: flex;
-    }
-    .city img{    
-        float: left;
-        padding-top: 50px;
-        /* width: 80%; */
-    }
-    .city p{
-        text-align: left;
-        margin-left: 120px;
-    }
-    .city h4{
-        margin-left: 120px;
-    }
-      
-    table.a {
-        table-layout: auto;
-        width: 80%; 
-        margin-left: 15px; 
-    }
-    .places img{
-        width: 50%;
-    } 
-    
 }
