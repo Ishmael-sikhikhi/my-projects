@@ -58,7 +58,7 @@ table,
   
 table.a {
     table-layout: auto;
-    width: 90%; 
+    width: 100%; 
     margin-left: 15px; 
 }
 
@@ -69,7 +69,17 @@ table.a {
 .footer{
     display: flex;
 }
-img{
+.churchsquare_ img{
+    float: right;
+    padding: 1em;
+}
+
+.cityhall_ img{
+    float: right;
+    padding: 1em;
+}
+
+.greenmarketsquare_ img{
     float: right;
     padding: 1em;
 }
@@ -97,6 +107,21 @@ img{
     .greenmarketsquare_{
         width: 33%;
     }
+
+    .churchsquare_ img{
+        float: right;
+        padding: 1em;
+    }
+    
+    .cityhall_ img{
+        float: right;
+        padding: 1em;
+    }
+    
+    .greenmarketsquare_ img{
+        float: right;
+        padding: 1em;
+    }
     
 }
 /* end 1024 to bigger screen */
@@ -111,12 +136,18 @@ img{
         width: 100%;
         overflow: hidden;
     }
-    .container.img{
+    .churchsquare_ img{
         float: right;
         padding: 1em;
     }
-    .cityhall_.img{
+    
+    .cityhall_ img{
         float: left;
+        padding: 1em;
+    }
+    
+    .greenmarketsquare_ img{
+        float: right;
         padding: 1em;
     }
     /* img{

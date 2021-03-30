@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webpage Grid</title>
-    <link rel="stylesheet" href="simple-grid/grid/simple-grid.css">
+    <link rel="stylesheet" href="simple-grid.css">
     <link rel="stylesheet" href="gridstyles.css">
 </head>
 <body>
@@ -18,14 +18,14 @@
             </div>
         </div>
         
-        <div class="row name-row">
+        <div class="row row-name">
         
             <div class = "col-6 names">
                 <h3>Ishmael </h3>
                 <h3>Sikhikhi </h3>               
             </div>
-            <div class="col-6">
-                <img src="tableMount.jpg
+            <div class="col-6 ">
+                <img src="images/tableMount.jpg
                 " width="300" height="220" alt="Myself">
             </div>
         
@@ -37,10 +37,10 @@
         <div class = "row city">
             <h3>Which city</h3>
             <div class="col-4 ">
-                <img src="durban-city-highlights.jpg" 
+                <img src="images/durban-city-highlights.jpg" 
                 alt="City of my choice">
             </div>
-            <div class="col-8">
+            <div class="col-8 city-col">
                 <h4>Durban</h4>
                 <p>I would like to visit Durban because I like the beach and
                     how the city is connected to it. I also heard that 
@@ -52,41 +52,50 @@
             </div>
 
         </div>
-        <div class="col-12">
-            <h3>A foreign language</h3>
+        <div class="row">
+            <div class="col-12">
+                <h3>A foreign language</h3>
+            </div>
         </div>
+        
+         <div class="row">
+            <div class="col-12">
+                <p>The language I would like to learn is Spnish, I used to like how they since.
+                    I sometimes wish I could hear their lyrics. 
+                    Other song I like in this language is popular through Money Heist series. Bella ciau.</p>  
+               
+                <table class="a">
+                    <tr>
+                        <th>English phrase</th>
+                        <th>Spanish phrase</th>
+                    </tr>
+                    <tr>
+                        <td>Good morning</td>
+                        <td>Buenos días</td>
+                    </tr>
+                    <tr>
+                        <td>How was work?</td>
+                        <td>Como a ido el trabajo?</td>
+                    </tr>
+                    <tr>
+                        <td>I would like to have water</td>
+                        <td>Me gustaria tener agua</td>
+                    </tr>
+        
+                </table>
+            </div>
+         </div>  
            
-        <div class="col-12">
-            <p>The language I would like to learn is Spnish, I used to like how they since.
-                I sometimes wish I could hear their lyrics. 
-                Other song I like in this language is popular through Money Heist series. Bella ciau.</p>  
-           
-            <table class="a">
-                <tr>
-                    <th>English phrase</th>
-                    <th>Spanish phrase</th>
-                </tr>
-                <tr>
-                    <td>Good morning</td>
-                    <td>Buenos días</td>
-                </tr>
-                <tr>
-                    <td>How was work?</td>
-                    <td>Como a ido el trabajo?</td>
-                </tr>
-                <tr>
-                    <td>I would like to have water</td>
-                    <td>Me gustaria tener agua</td>
-                </tr>
-    
-            </table>
-        </div>   
-       
-        <h3 class>Historical places</h3>
+       <div class="row">
+            <div class="col-12">
+                <h3 class>Historical places</h3>
+            </div>
+       </div>
+        
         <div class="row places">
             <div class="col-4 box1">
                 <h5>Church Square</h5>
-                   <img src="churchsquare.jpg"  width="200" height="200" alt="Church Square">
+                   <img src="images/churchsquare.jpg"  width="200" height="200" alt="Church Square">
                     
                     <p> 
                         <li>Between 1730 and 1753 Church Square became a meeting place for local dogs.</li>
@@ -96,7 +105,7 @@
             </div>
             <div class="col-4 box2">  
                 <h5>City hall</h5>              
-                    <img src="cityhall.jpg" width="200" height="200" alt="City Hall">
+                    <img src="images/cityhall.jpg" width="200" height="200" alt="City Hall">
                     
                     <p><li>The organ in the Grand Hall was specifically designed for the hall by Sir George Martin</li>
                         <li>The clock in the turret is modelled on Big Ben and is exactly half the size, the dials being 10 foot 6 inches in diameter.</li>
@@ -105,7 +114,7 @@
             </div>
             <div class="col-4 box3">
                 <h5>Green market square</h5>
-                <img src="greenmarketsquare.jpg" width="200" height="200" alt="Green market square">
+                <img src="images/greenmarketsquare.jpg" width="200" height="200" alt="Green market square">
                     <p>
                         <li>This is one of the best places in Cape Town to buy curios and gifts for your loved ones back home,
                             while supporting the entrepreneurial traders. </li>
@@ -116,8 +125,11 @@
         </div>
             
     </div>
-    <div class="footer">
-
+    <div class="row">
+        <div class="col-12">
+            <p>@Ishmael inc, 2021</p>
+        </div>
     </div>
+    
 </body>
 </html>

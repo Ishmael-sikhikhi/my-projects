@@ -1,14 +1,7 @@
 body{
     background-color: rgb(227, 212, 228);
 }
-img{
-    float: right;
-    padding: 15px;
-}
-.names{
-    text-align: center;
 
-}
 
 table,
   th,td {
@@ -21,25 +14,30 @@ table,
     padding-top: 50px;
     /* width: 80%; */
 }
-.city p{
-    text-align: left;
-    margin-left: 120px;
-}
-.city h4{
-    margin-left: 120px;
-}
+
+
   
 table.a {
     table-layout: auto;
-    width: 80%; 
+    width: 100%; 
     margin-left: 15px; 
 }
 .places img{
     width: 50%;
 } 
 @media (min-width:992px){
+    .names h3{
+        font-size-adjust: inherit;
+    }
+    .city p{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .city h4{
+        margin-left: 120px;
+    }
     .box1, .box2, .box3{
-        width: 27%;
+        width: 33.3%;
     }
 
     .places{
@@ -64,7 +62,7 @@ table.a {
       
     table.a {
         table-layout: auto;
-        width: 80%; 
+        width: 100%; 
         margin-left: 15px; 
     }
     
@@ -77,19 +75,28 @@ table.a {
         width: 250px; 
         height: 200px;
     }
-    .name-row img{
+    .row-name img{
         width: 250px;
+    }
+    .row-name{
+        display: flex;
+        justify-content: space-evenly;
     }
     
 }
 
 @media only screen and (min-width:689px) and (max-width:992px){
-    .box1, .box3 img{
+     .box3 img{
+        float: right;
+        padding: 1em;
+    }
+    .box1  img{
         float: right;
         padding: 1em;
     }
     .box2 img{
         float: left;
+        padding: 1em;
     }
     .places{
         display: flex;
@@ -114,7 +121,7 @@ table.a {
         width: 250px; 
         height: 200px;
     }
-    .name-row img{
+    .row-name img{
         width: 250px;
     }
     
@@ -122,9 +129,26 @@ table.a {
 @media only screen and (max-width:688px){
     .box2 img{
         float: left;
+        padding: 1em;
     }
-    .box1, .box3 img{
+    .box1 img{
         float: right;
         padding: 1em;
+    }
+     .box3 img{
+        float: right;
+        padding: 1em;
+    }
+    .city img{
+        width: 90%;
+        margin-right: 10px;
+    }
+    .city-col{
+        text-align: left;
+        width: 90%;
+        margin: auto;       
+    }
+    .row-name img{
+            width: 90%;
     }
 }
