@@ -1,7 +1,10 @@
 body{
     background-color: rgb(227, 212, 228);
 }
-
+.citi img{
+    float: left;
+    padding: 1em;
+}
 
 table,
   th,td {

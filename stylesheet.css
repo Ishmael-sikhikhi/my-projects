@@ -32,9 +32,9 @@ body,html {
     zoom: 1;
 }
 
-.box-2{display: flex;
-    justify-content: center;nter;
-    width: 96%;
+.box-2 img{
+    float: left;
+    padding: 1em;
 }
 
 .city-p{
@@ -89,7 +89,7 @@ table.a {
 
 
 /**************************************************************************************************************************/
-@media only screen and (min-width:1024px){
+@media  (min-width:992px){
     .container.img{
         float: right; 
     }
@@ -128,7 +128,7 @@ table.a {
     
 }
 /* end 1024 to bigger screen */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:992px) {
     .box-2.img{
         float: left;
         width: 96%;
@@ -168,7 +168,7 @@ table.a {
 /* end 768px */
 
 
-@media only screen and (min-width:320px) and (max-width:425px){
+@media only screen  and (max-width:688px){
     
     .box-1{
         display: block;
