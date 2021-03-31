@@ -27,7 +27,10 @@ body,html {
     width: 96%;
 }
 
-
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
 
 .box-2{display: flex;
     justify-content: center;nter;
