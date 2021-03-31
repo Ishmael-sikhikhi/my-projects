@@ -58,13 +58,13 @@ table,
   
 table.a {
     table-layout: auto;
-    width: 96%; 
+    width: 100%; 
     margin-left: 15px; 
 }
 
 .container{
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 .footer{
     display: flex;
@@ -91,7 +91,7 @@ table.a {
         float: right; 
     }
     .container{
-        width: 100%;
+        width: 80%;
         overflow: hidden;
     }
     .historical{
@@ -133,7 +133,7 @@ table.a {
         margin-bottom: auto;
     }
     .container{
-        width: 100%;
+        width: 80%;
         overflow: hidden;
     }
     .churchsquare_ img{
@@ -155,7 +155,7 @@ table.a {
         display: block;
     } */
     table.a{
-        width: 96%;
+        width: 100%;
     }
     .historical{
         flex-wrap: wrap;
@@ -180,7 +180,7 @@ table.a {
 
     }
     .container{
-        width: 100%;
+        width: 80%;
     }
 
     .churchsquare_.img{
