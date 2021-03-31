@@ -4,7 +4,9 @@ body,html {
     background-color: rgb(227, 212, 228);
     width: 100%;
 }
-
+.box-2{
+    margin-bottom: 50px;
+}
 
 .names h1{
     text-align: center;
@@ -93,6 +95,9 @@ table.a {
     .container.img{
         float: right; 
     }
+    .box-2{
+        margin-bottom: 200px;
+    }
     .container{
         width: 80%;
         overflow: hidden;
@@ -129,11 +134,14 @@ table.a {
 }
 /* end 1024 to bigger screen */
 @media only screen and (max-width:992px) {
-    .box-2.img{
+    .box-2{
+        width: 90%;
+        height: 30%;
+    }
+    .box-2 img{
         float: left;
-        width: 96%;
-        justify-content: space-around;
-        margin-bottom: auto;
+        padding: 1em;
+        width: 50%;
     }
     .container{
         width: 80%;
