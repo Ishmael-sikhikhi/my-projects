@@ -88,7 +88,9 @@ table.a {
     float: right;
     padding: 1em;
 }
-
+.class1{
+    display: block;
+}
 
 /**************************************************************************************************************************/
 @media  (min-width:992px){
@@ -97,6 +99,9 @@ table.a {
     }
     .box-2{
         margin-bottom: 200px;
+    }
+    .class1{
+        display: block;
     }
     .container{
         width: 80%;
