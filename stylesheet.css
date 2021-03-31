@@ -45,6 +45,9 @@ body,html {
     left: 1%;
     
 }
+._table{
+    margin-top: 20%;
+}
 
 .historical{
     display: flex;
